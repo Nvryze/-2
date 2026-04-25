@@ -28,7 +28,6 @@
       color: #D4AF37;
       font-weight: 700;
     }
-    /* Titik dihapus */
     ::-webkit-scrollbar { display: none; }
 
     section {
@@ -90,19 +89,19 @@
     </a>
   </nav>
 
-  <!-- NAVBAR MOBILE: BOTTOM FLOATING -->
-  <nav class="lg:hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50 flex gap-2 glass rounded-full px-3 py-2">
-    <a href="#home" data-nav="home" class="nav-link flex-col items-center px-4 py-2 rounded-full text-xs gap-1 transition-all">
-      <i data-lucide="home" class="w-5 h-5"></i><span>Home</span>
+  <!-- NAVBAR MOBILE: BOTTOM FLOATING - FIXED CENTER -->
+  <nav class="lg:hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50 flex gap-1 glass rounded-full px-2 py-2 pb-[calc(0.5rem+env(safe-area-inset-bottom))]">
+    <a href="#home" data-nav="home" class="nav-link flex flex-col items-center justify-center w-16 py-2 rounded-full text-xs gap-1 transition-all">
+      <i data-lucide="home" class="w-5 h-5"></i><span class="leading-none">Home</span>
     </a>
-    <a href="#layanan" data-nav="layanan" class="nav-link flex flex-col items-center px-4 py-2 rounded-full text-xs gap-1 transition-all">
-      <i data-lucide="scissors" class="w-5 h-5"></i><span>Layanan</span>
+    <a href="#layanan" data-nav="layanan" class="nav-link flex flex-col items-center justify-center w-16 py-2 rounded-full text-xs gap-1 transition-all">
+      <i data-lucide="scissors" class="w-5 h-5"></i><span class="leading-none">Layanan</span>
     </a>
-    <a href="#galeri" data-nav="galeri" class="nav-link flex flex-col items-center px-4 py-2 rounded-full text-xs gap-1 transition-all">
-      <i data-lucide="image" class="w-5 h-5"></i><span>Galeri</span>
+    <a href="#galeri" data-nav="galeri" class="nav-link flex flex-col items-center justify-center w-16 py-2 rounded-full text-xs gap-1 transition-all">
+      <i data-lucide="image" class="w-5 h-5"></i><span class="leading-none">Galeri</span>
     </a>
-    <a href="https://wa.me/6285117587170" target="_blank" class="flex flex-col items-center px-4 py-2 rounded-full text-xs gap-1">
-      <i data-lucide="message-circle" class="w-5 h-5"></i><span>WA</span>
+    <a href="https://wa.me/6285117587170" target="_blank" class="flex flex-col items-center justify-center w-16 py-2 rounded-full text-xs gap-1">
+      <i data-lucide="message-circle" class="w-5 h-5"></i><span class="leading-none">WA</span>
     </a>
   </nav>
 
@@ -277,7 +276,7 @@
           </div>
         </div>
         <div class="flex flex-col gap-3 pt-2 animate-item">
-          <a href="https://maps.app.goo.gl/VyJ5n8J5n8J5n8J5n" target="_blank" class="glass py-4 rounded-full flex items-center justify-center gap-2 hover:bg-white/10">
+          <a href="https://maps.app.goo.gl/VyJ5n8J5n" target="_blank" class="glass py-4 rounded-full flex items-center justify-center gap-2 hover:bg-white/10">
             <i data-lucide="send" class="w-5 h-5"></i>Buka di Google Maps
           </a>
           <a href="https://wa.me/6285117587170" class="bg-[#D4AF37] text-black font-semibold py-4 rounded-full flex items-center justify-center gap-2 hover:opacity-90">
